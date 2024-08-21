@@ -1,0 +1,15 @@
+var a=input();
+var temp=int(a);
+var sum=0;
+var bai=int(a[0]);
+var shi=int(a[1]);
+var ge=int(a[2]);
+sum=bai*bai*bai+shi*shi*shi+ge*ge*ge;
+print(sum);
+if(sum==temp){
+    print("Input is a Narcissistic number");
+}
+else{
+    print("Input is not a Narcissistic number");
+}
+

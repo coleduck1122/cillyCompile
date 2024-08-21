@@ -1,0 +1,11 @@
+fun sum_num(n){
+    var total = 0;
+    var i =1;
+    while(n >= i){
+        total = total + i;
+        i = i + 1;
+    }
+    return total;
+}
+var temp=sum_num(100);
+print(temp);

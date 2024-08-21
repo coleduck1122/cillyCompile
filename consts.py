@@ -1,0 +1,76 @@
+T = ['bool', True]
+F = ['bool', False]
+Null = ['null', None]
+
+LOAD_CONST = 30
+LOAD_TRUE = 31
+LOAD_FALSE = 32
+LOAD_NULL = 33
+LOAD_VAR = 34
+STORE_VAR = 35
+LOAD_GLOBAL = 36
+STORE_GLOBAL = 37
+ENTER_SCOPE = 38
+LEAVE_SCOPE = 39
+
+BINOP_ADD = 40
+BINOP_SUB = 41
+BINOP_MUL = 42
+BINOP_DIV = 43
+BINOP_GT = 44
+BINOP_GE = 45
+BINOP_LT = 46
+BINOP_LE = 47
+BINOP_EQ = 48
+BINOP_NE = 49
+
+UNIOP_NOT = 50
+UNIOP_NEG = 51
+
+JMP = 60
+JMP_TRUE = 61
+JMP_FALSE = 62
+PRINT_ITEM = 63
+PRINT_NEWLINE = 64
+POP = 65
+MAKE_CLOSURE = 66
+CALL = 67
+RET = 68
+
+
+zl = {
+    "LOAD_CONST": 30,
+    "LOAD_TRUE": 31,
+    "LOAD_FALSE": 32,
+    "LOAD_NULL": 33,
+    "LOAD_VAR": 34,
+    "STORE_VAR": 35,
+    "LOAD_GLOBAL": 36,
+    "STORE_GLOBAL": 37,
+    "ENTER_SCOPE": 38,
+    "LEAVE_SCOPE": 39,
+
+    "BINOP_ADD": 40,
+    "BINOP_SUB": 41,
+    "BINOP_MUL": 42,
+    "BINOP_DIV": 43,
+    "BINOP_GT": 44,
+    "BINOP_GE": 45,
+    "BINOP_LT": 46,
+    "BINOP_LE": 47,
+    "BINOP_EQ": 48,
+    "BINOP_NE": 49,
+
+    "UNIOP_NOT": 50,
+    "UNIOP_NEG": 51,
+
+    "JMP": 60,
+    "JMP_TRUE": 61,
+    "JMP_FALSE": 62,
+    "PRINT_ITEM": 63,
+    "PRINT_NEWLINE": 64,
+    "POP": 65,
+    "MAKE_CLOSURE": 66,
+    "CALL": 67,
+    "RET": 68,
+}
